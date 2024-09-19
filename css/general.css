@@ -61,6 +61,7 @@ html {
   /*Percentage of user's browser font-size setting*/
   /* this means for any size in px, we can simply divide it on 10. E.g. 62px = 6.2rem*/
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -68,6 +69,7 @@ body {
   line-height: 1.05;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 /***********************************/
@@ -238,6 +240,7 @@ body {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {
