@@ -62,6 +62,9 @@ html {
   /* this means for any size in px, we can simply divide it on 10. E.g. 62px = 6.2rem*/
   font-size: 62.5%;
   overflow-x: hidden;
+
+  /* Not working on old version of safari */
+  /* scroll-behavior: smooth; */
 }
 
 body {
